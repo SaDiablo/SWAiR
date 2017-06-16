@@ -1,0 +1,6 @@
+smooth wyg³adza histogram
+cv.cvtColor('RGB2GRAY') zmienia obraz na szary
+cv.threshold binaryzuje obraz metod¹ otsu
+redukcjipoziomówszaroœci domyœlnie dzia³a dla ju¿ szarych obrazków oraz zmniejszenia ich poziomów dwukrotnie. Jeœli chcemy je zmniejszyæ np. 4 razy to wchodzimy w drug¹ linijkê i zmieniamy dzielnik
+do u¿ywania funkcji ktore licz¹ wspó³czynniki lub pole najpierw musisz ponumerowac figury binarne na obrazie specjaln¹ funkcj¹ i wybraæ jedn¹ z nich metod¹ y=(x==3), co wybiera trzeci¹ zaznaczon¹ figure.
+do monte carlo rzeba daæ 2 argumety (obraz+procent)
